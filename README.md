@@ -78,4 +78,47 @@ javac Main.java
 java Main
 ```
 
+## Vectors
+
+### Creating
+
+```java
+// Create Vector with Capacity 10
+Vector name = new Vector();
+// Create Vector with Capacity 15 and default steps
+Vector name2 = new Vector(15);
+// Create Vector with Capacity 20 and step size of 5
+Vector name3 = new Vector(20,5);
+```
+
+### Add
+
+```java
+// add int
+v_new.add(25);
+// add string
+v_new.add("Java");
+// add using index
+v_new.add(1, "Java");
+```
+
+### Remove
+
+```java
+// remove index
+v_new.remove(0);
+// remove element
+v_new.remove("Java");
+```
+
+## Functions
+
+```java
+// prints the current 
+v_new.size();
+// prints the capacity
+v_new.capacity();
+// trim to size
+v_new.trimToSize();
+```
 
