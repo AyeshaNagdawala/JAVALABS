@@ -46,6 +46,13 @@ public class Main {
 }
 ```
 
+#### Scanner
+```java
+Scanner sc = new Scanner (System.in);
+int n=sc.nextInt(); // store input to integer n
+sc.close(); // close to prevent memory leaking
+```
+
 #### Executing
 
 ```
