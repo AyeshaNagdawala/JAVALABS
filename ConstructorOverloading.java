@@ -9,20 +9,20 @@ public class main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        add obj1=new add();
-        add obj2= new add();
-        p=obj1.add(a,b,c);
-        q=obj2.add(a,b);
+        mult obj1=new mult();
+        mult obj2= new mult();
+        p=obj1.mult(a,b,c);
+        q=obj2.mult(a,b);
         System.out.println("Multiplication answers are: "+p+" and "+q);
     }
 }
-class add
+class mult
 {
-    static int add(int a,int b,int c)
+    static int mult(int a,int b,int c)
     {
         return a*b*c;
     }
-    static int add(int a,int b)
+    static int mult(int a,int b)
     {
         return a*b;
     }
