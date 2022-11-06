@@ -1,4 +1,6 @@
-public class Triangle {
+import java.util.*;
+
+class Triangle {
     int side;
 
     public Triangle() // No Paramerter
@@ -9,6 +11,15 @@ public class Triangle {
     public Triangle(int y) // Parameter yes
     {
         side = y;
+
     }
 }
-// This is a non executable program file
+
+public class Main {
+    public static void main(String args[]) {
+        Triangle t1 = new Triangle();
+        System.out.println("Side is " + t1.side);
+        Triangle t2 = new Triangle(69);
+        System.out.println("Side is " + t2.side);
+    }
+}
