@@ -9,18 +9,18 @@ public class main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        p=sum.add(a,b);
-        q=sum.add(a,b,c);
+        p=multiplication.mult(a,b);
+        q=multiplication.mult(a,b,c);
         System.out.println("Multiplication answers are: "+p+" and "+q);
     }
 }
-class sum
+class multiplication
 {
-    static int add(int a,int b,int c)
+    static int mult(int a,int b,int c)
     {
         return a*b*c;
     }
-    static int add(int a,int b)
+    static int mult(int a,int b)
     {
         return a*b;
     }
