@@ -11,4 +11,12 @@ import java.util.Scanner  is for scanner or input
  a method is a function within a class
  method overloading is same as function overloading and no object needs to be created to call it
  
- for constructor overloading name of class is same as constructors(constructs are like methods but difference is they share name of the class they are in). object needs to be created for calling
+ for constructor overloading name of class is same as constructors(constructs are like methods but difference is they share name of the class they are in). object needs to be created for calling.
+ 
+ for string
+taking input:
+String s = sc.next();
+functons:
+s.length()
+s.charAt(4)
+s.toUpperCase()
