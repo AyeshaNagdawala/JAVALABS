@@ -21,6 +21,23 @@ s.length()
 s.charAt(4)
 s.toUpperCase()
 
+## List of Programs
+- [x] Floyds, Armstrong And Pattern
+- [ ] Control structure
+- [x] Method overloading amd constructor overloading
+- [ ] Arrays
+- [x] Vectors and strings
+- [x] Inheritance
+- [ ] Interfaces
+- [ ] Packages
+- [x] Exception handling (/0 and Index)
+- [ ] Multithreading
+- [ ] I/O stream
+- [ ] Calc using AWT
+- [ ] Student form using swing
+- [ ] GUI
+- [ ] Login using JavaFX
+
 
 ## Things to Remember
 
