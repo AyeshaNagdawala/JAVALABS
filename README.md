@@ -21,6 +21,10 @@ s.length()
 s.charAt(4)
 s.toUpperCase()
 
+ArrayIndexoutOfBoundsException
+ArithmeticException
+ClassNotFoundException
+
 ## List of Programs
 - [x] Floyds, Armstrong And Pattern
 - [x] Control structure (fibo, fact)
