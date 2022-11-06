@@ -15,7 +15,7 @@ public class PascalsTriangle {
             System.out.print("\n");
         }
     }
-    private static int fact(int n) {
+    static int fact(int n) {
         if (n == 0) {
             return 1;
         }
