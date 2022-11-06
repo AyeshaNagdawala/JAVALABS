@@ -19,3 +19,6 @@ public class main
     }
 }
 
+// Don't use random values
+// a = 6 , b = 11 , c = -35 
+// a = 1 , b = 2 , c = -15
