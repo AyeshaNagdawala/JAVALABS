@@ -20,3 +20,37 @@ functons:
 s.length()
 s.charAt(4)
 s.toUpperCase()
+
+
+## Things to Remember
+
+
+
+#### Import Libraries
+
+```java
+import java.util.*;
+// for input
+import java.util.Scanner;
+// for implements runnable or extends thread
+import java.lang.*
+```
+
+#### Main Class Structure
+
+```java
+public class Main {
+    public static void main(String args[]) {
+       // code
+    }
+}
+```
+
+#### Executing
+
+```
+javac Main.java
+java Main
+```
+
+
