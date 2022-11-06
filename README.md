@@ -111,7 +111,7 @@ v_new.remove(0);
 v_new.remove("Java");
 ```
 
-## Functions
+### Functions
 
 ```java
 // prints the current 
