@@ -5,18 +5,14 @@ public class main
 {
     public static void main(String args[])
     {
-        Scanner sc = new Scanner (System.in);
-        System.out.println("Enter numerator and denominator:");
-        int n = sc.nextInt();
-       int d = sc.nextInt();
-      
        try
        {
-           System.out.println("Answer is: " +(n/d));
+           int a=5/0;
+           System.out.println("Rest of the code...");
        }
-        catch(Exception e)
+        catch(ArithmeticException e)
         {
-            System.out.println("division by zero");
+            System.out.println(e);
         }
     }
 }
