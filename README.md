@@ -50,6 +50,7 @@ public class Main {
 ```java
 Scanner sc = new Scanner (System.in);
 int n=sc.nextInt(); // store input to integer n
+String s = sc.next(); //  store input to string s
 sc.close(); // close to prevent memory leaking
 ```
 
