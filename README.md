@@ -23,15 +23,15 @@ s.toUpperCase()
 
 ## List of Programs
 - [x] Floyds, Armstrong And Pattern
-- [ ] Control structure
+- [x] Control structure (fibo, fact)
 - [x] Method overloading amd constructor overloading
-- [ ] Arrays
+- [x] Arrays (matrix)
 - [x] Vectors and strings
 - [x] Inheritance
 - [ ] Interfaces
 - [ ] Packages
 - [x] Exception handling (/0 and Index)
-- [ ] Multithreading
+- [x] Multithreading
 - [ ] I/O stream
 - [ ] Calc using AWT
 - [ ] Student form using swing
