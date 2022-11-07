@@ -8,8 +8,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println(e);
         }
-        System.out.println();
-
         System.out.println("2.ArrayIndexOutOfBoundsException");
         int[] arr = new int[10];
         try {
@@ -17,8 +15,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println(e);
         }
-        System.out.println();
-
         System.out.println("3.ClassNotFoundException");
         try {
             Class.forName("Class Employee"); // Class Employee is not defined
@@ -27,13 +23,10 @@ public class Main {
         }
         System.out.println("4.NumberFormatException");
         try {
-            // "akki" is not a number
-            int num = Integer.parseInt("akki");
-
+            int num = Integer.parseInt("akki"); // "akki" is not a number
             System.out.println(num);
         } catch (Exception e) {
             System.out.println(e);
         }
-        System.out.println();
     }
 }
