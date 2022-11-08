@@ -2,7 +2,7 @@ class Main {
   public static void main(String[] args) {
     //String S capital
     String s = "Ayesha";
-    String t = "Anas";
+    String t = "Ayesha";
     int a = 5;
     int b = 6;
     System.out.println("The string is :" +s+t);
